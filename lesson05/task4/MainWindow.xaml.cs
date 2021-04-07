@@ -91,19 +91,6 @@ namespace task4
 
         #endregion
 
-        //private void BackgroundSelector_SelectedColorChanged(object sender, RoutedPropertyChangedEventArgs<Color?> e)
-        //{
-        //    var bc = new BrushConverter();
-        //    CurrentBackgroundBrush = (Brush)bc.ConvertFromString(BackgroundSelector.SelectedColor.ToString());
-
-        //}
-
-        //private void ForegroundSelector_SelectedColorChanged(object sender, RoutedPropertyChangedEventArgs<Color?> e)
-        //{
-        //    var bc = new BrushConverter();
-        //    CurrentForegroundBrush = (Brush)bc.ConvertFromString(ForegroundSelector.SelectedColor.ToString());
-        //}
-
         private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
             settings.SavedBackgroundBrush = CurrentBackgroundBrush;
